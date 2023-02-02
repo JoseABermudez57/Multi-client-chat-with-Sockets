@@ -25,7 +25,7 @@ waitForUser.then((user) => {
   // En caso de cambio de red modificar el host
   const options = {
     port: 8001,
-    host: "192.168.89.201",
+    host: "127.0.0.1",
   };
 
   // net.connect realiza la conexion al servidor con los anteriores parametros

@@ -4,7 +4,7 @@ const kleur = require("kleur");
 let clients = [];
 
 let port = 8001;
-let host = "192.168.89.201";
+let host = "127.0.0.1";
 
 const server = net.createServer((socket) => {
   let hasName = false; // Al inicio un cliente no tiene nombre
